@@ -1,5 +1,8 @@
 const extendHex = (shortHex) => {
-  // write your code here
+  // write your code herE
+	 "#" +(shortHex.slice(shortHex.startsWith("#") ? 1:0).split("").map((currElem)=> currElem+currElem).join(""));
+  
+con
 };
 
 // Do not change the code below.
